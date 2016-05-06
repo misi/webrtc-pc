@@ -3714,6 +3714,17 @@ sender.setParameters(params)
               framerate, <code>degradationPreference</code> indicates which is preferred.
             </p>
           </dd>
+
+           <dt>boolean upscaleAllowed = false </dt>
+
+           <dd>
+            <p>When, and only when, this value is set true the browser MAY
+            upscale video temporally or spatially, or upscale audio sampling
+            rate or number of bits in the audio sample that the
+            <code><a>RtpSender</a></code> sends over RTP.  </p>
+          </dd>
+
+          
         </dl>
 
         <dl class="idl" title="dictionary RTCRtpEncodingParameters">
